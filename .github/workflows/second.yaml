@@ -1,8 +1,5 @@
 name: second-workflow
-on: 
-  issues:
-    types:
-      - created
+on: issues
 jobs:
   print-info:
     runs-on: ubuntu-latest
