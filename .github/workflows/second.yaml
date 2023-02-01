@@ -1,0 +1,9 @@
+name: second-workflow
+on:
+  issues:
+    types: created
+jobs:
+  print-info:
+    steps:
+      - name: print isuue title
+        run: echo "${{github}}"
